@@ -23,8 +23,6 @@ Checker = R.curry (validators, fn)->
 
 
 
-
-
 mustBeMap = Checker([
     Validator("Argument must be a map", typeCheck("Object"))
     ])
